@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
-/*--Colours--*/
+/* --Colours-- */
 .bg-color-name-title {
     background-color: #6f42c1;;
     color: #fff;
@@ -42,7 +42,13 @@
     margin-bottom: 40px;
 }
 
-/* ----------------------------------------Special paddings/margins/text */
+.bg-color-personal-info {
+    background-color: #6f42c1;
+    color: #fff;
+    
+}
+
+/* --Special paddings/margins/text-- */
 
 h1,
 h2,
@@ -82,7 +88,11 @@ h4 {
     margin-bottom: 40px;
 }
 
-/*--------------------------------------------Heading*/
+.container-fluid {
+    padding-left: 0px;
+}
+
+/* --Heading-- */
 
 header {
     margin: 0;
@@ -172,14 +182,14 @@ header {
     letter-spacing: 2px;
 }
 
-/*--------------------------------------------Hover.css*/
+/* --Hover.css--*/
 
 .hvr-sweep-to-bottom:before {
     background: rgba(0, 0, 0, 0.2);
     height: 120px;
 }
 
-/* ----------------------------------------Footer */
+/* --Footer-- */
 
 footer {
     background-color: #6f42c1;
@@ -231,7 +241,7 @@ footer {
     padding: 20px;
 }
 
-/* ----------------------------------------Three Reasons */
+/* --Three Reasons-- */
 
 .three-reasons-icon {
     font-size: 26px;
