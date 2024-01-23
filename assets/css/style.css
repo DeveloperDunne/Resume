@@ -30,6 +30,9 @@ header {
 .heading {
     margin-left: 50px;
 }
+.row {
+    margin-left: 0;
+}
 
 .logo {
     background: url("../images/Profile.gif");
@@ -63,6 +66,9 @@ color: #fff;
 
 .menucontainer {
     font-size: 0;;
+}
+#nav {
+margin: 0;
 }
 
 #nav li {
@@ -99,4 +105,10 @@ padding: 0;
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 2px;
+}
+
+/*--Hover.CSS--*/
+
+.hvr-sweep-to-bottom:before {
+background-color: rgba(0,0,0,0.2);
 }
